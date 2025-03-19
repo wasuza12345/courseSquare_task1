@@ -6,7 +6,7 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/wasuza12345/courseSquare_task1.git
-   cd course-square
+   cd courseSquare_task1
    ```
 
 2. Start the Docker containers:
