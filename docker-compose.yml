@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mysql:8
+    container_name: course_square-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: course_square
+      MYSQL_DATABASE: course_square
+      MYSQL_USER: course_square
+      MYSQL_PASSWORD: course_square
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - "3100:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: course_square-phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+volumes:
+  db-data:

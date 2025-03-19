@@ -1,0 +1,92 @@
+2025-03-19T18:43:01.721Z [INFO]: fetching all member from database
+2025-03-19T18:43:01.758Z [INFO]: all member fetched successfully
+2025-03-19T18:49:59.585Z [INFO]: fetching member from database
+2025-03-19T18:50:04.619Z [INFO]: fetching member from database
+2025-03-19T18:56:08.366Z [INFO]: creating new member in database
+2025-03-19T18:56:08.397Z [INFO]: new member created successfully
+2025-03-19T19:01:47.028Z [INFO]: fetching member from database
+2025-03-19T19:03:14.867Z [INFO]: fetching member from database
+2025-03-19T19:03:14.900Z [INFO]: member fetched Not found
+2025-03-19T19:04:24.532Z [INFO]: fetching member from database
+2025-03-19T19:04:24.550Z [INFO]: member fetched successfully
+2025-03-19T19:09:10.193Z [INFO]: updating member in database
+2025-03-19T19:09:10.198Z [ERROR]: Error updating Member: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-19T19:10:38.066Z [INFO]: updating member in database
+2025-03-19T19:10:38.104Z [INFO]: member updated successfully
+2025-03-19T19:10:52.541Z [INFO]: updating member in database
+2025-03-19T19:10:52.548Z [INFO]: member updated Not found
+2025-03-19T19:12:53.622Z [INFO]: deleting member from database
+2025-03-19T19:12:53.643Z [INFO]: member deleted Not found
+2025-03-19T19:12:59.294Z [INFO]: deleting member from database
+2025-03-19T19:12:59.310Z [INFO]: member deleted successfully
+2025-03-19T19:16:39.609Z [INFO]: fetching all courses from database
+2025-03-19T19:16:39.633Z [INFO]: all courses fetched successfully
+2025-03-19T19:17:35.034Z [INFO]: fetching all courses from database
+2025-03-19T19:17:35.054Z [INFO]: all courses fetched successfully
+2025-03-19T19:18:57.794Z [INFO]: creating new course in database
+2025-03-19T19:18:57.843Z [INFO]: new course created successfully
+2025-03-19T19:21:56.952Z [INFO]: fetching course from database
+2025-03-19T19:21:56.967Z [INFO]: course fetched successfully
+2025-03-19T19:22:20.333Z [INFO]: creating new course in database
+2025-03-19T19:22:20.355Z [INFO]: new course created successfully
+2025-03-19T19:22:30.334Z [INFO]: fetching course from database
+2025-03-19T19:22:30.341Z [INFO]: course fetched successfully
+2025-03-19T19:23:16.298Z [INFO]: fetching course from database
+2025-03-19T19:23:16.304Z [INFO]: course fetched Not found
+2025-03-19T19:24:33.676Z [INFO]: updating course in database
+2025-03-19T19:24:33.686Z [INFO]: course updated Not found
+2025-03-19T19:24:38.657Z [INFO]: updating course in database
+2025-03-19T19:24:38.669Z [INFO]: course updated successfully
+2025-03-19T19:24:47.917Z [INFO]: fetching course from database
+2025-03-19T19:24:47.923Z [INFO]: course fetched successfully
+2025-03-19T19:25:10.612Z [INFO]: deleting course from database
+2025-03-19T19:25:10.622Z [INFO]: course deleted Not found
+2025-03-19T19:25:19.155Z [INFO]: deleting course from database
+2025-03-19T19:25:19.168Z [INFO]: course deleted successfully
+2025-03-19T19:29:10.413Z [INFO]: fetching all enrolls from database
+2025-03-19T19:29:10.462Z [ERROR]: Error fetching All Enrolls: Table 'course_square.Enrolls' doesn't exist
+2025-03-19T19:29:15.093Z [INFO]: fetching all enrolls from database
+2025-03-19T19:29:15.098Z [ERROR]: Error fetching All Enrolls: Table 'course_square.Enrolls' doesn't exist
+2025-03-19T19:29:34.823Z [INFO]: fetching all enrolls from database
+2025-03-19T19:29:34.847Z [INFO]: all enrolls fetched successfully
+2025-03-19T19:43:52.884Z [INFO]: creating new enroll in database
+2025-03-19T19:43:52.904Z [ERROR]: Error creating Enroll: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-19T19:44:43.472Z [INFO]: creating new enroll in database
+2025-03-19T19:44:43.475Z [ERROR]: Error creating Enroll: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+2025-03-19T19:46:54.537Z [INFO]: creating new enroll in database
+2025-03-19T19:46:54.635Z [ERROR]: Error creating Enroll: Incorrect datetime value: '2025-03-20T12:00:00Z' for column 'cer_start' at row 1
+2025-03-19T19:47:49.286Z [INFO]: creating new enroll in database
+2025-03-19T19:47:49.342Z [INFO]: new enroll created successfully
+2025-03-19T19:54:21.706Z [INFO]: creating new enroll in database
+2025-03-19T19:54:21.739Z [INFO]: new enroll created successfully
+2025-03-19T19:56:15.013Z [INFO]: fetching enroll from database
+2025-03-19T19:56:15.025Z [INFO]: Error fetching Enroll: Unknown column 'e_id' in 'where clause'
+2025-03-19T19:56:55.038Z [INFO]: fetching enroll from database
+2025-03-19T19:56:55.044Z [INFO]: Error fetching Enroll: Unknown column 'e_id' in 'where clause'
+2025-03-19T19:58:12.988Z [INFO]: fetching enroll from database
+2025-03-19T19:58:13.012Z [INFO]: enroll fetched successfully
+2025-03-19T19:58:18.433Z [INFO]: fetching enroll from database
+2025-03-19T19:58:18.440Z [INFO]: enroll fetched Not found
+2025-03-19T19:58:22.069Z [INFO]: fetching enroll from database
+2025-03-19T19:58:22.076Z [INFO]: enroll fetched successfully
+2025-03-19T19:59:23.010Z [INFO]: updating enroll in database
+2025-03-19T19:59:23.036Z [INFO]: enroll updated successfully
+2025-03-19T19:59:30.306Z [INFO]: updating enroll in database
+2025-03-19T19:59:30.314Z [INFO]: enroll updated Not found
+2025-03-19T20:00:19.372Z [INFO]: deleting enroll from database
+2025-03-19T20:00:19.385Z [INFO]: enroll deleted Not found
+2025-03-19T20:00:48.494Z [INFO]: deleting enroll from database
+2025-03-19T20:00:48.507Z [INFO]: enroll deleted successfully
+2025-03-19T20:06:59.232Z [INFO]: fetching all enrolls member from database
+2025-03-19T20:06:59.252Z [INFO]: all enrolls member fetched successfully
+2025-03-19T20:08:31.152Z [INFO]: fetching all enrolls member from database
+2025-03-19T20:08:31.183Z [INFO]: all enrolls member fetched successfully
+2025-03-19T20:08:38.127Z [INFO]: fetching all enrolls member from database
+2025-03-19T20:08:38.134Z [INFO]: all enrolls member fetched successfully
+2025-03-19T20:08:44.375Z [INFO]: fetching all enrolls member from database
+2025-03-19T20:08:44.382Z [INFO]: all enrolls member fetched successfully
+2025-03-19T20:09:08.694Z [INFO]: fetching all enrolls course from database
+2025-03-19T20:09:11.890Z [INFO]: fetching all enrolls course from database
+2025-03-19T20:09:14.457Z [INFO]: fetching all enrolls course from database
+2025-03-19T20:09:47.903Z [INFO]: fetching all enrolls course from database
+2025-03-19T20:09:47.910Z [INFO]: all enrolls course fetched successfully
